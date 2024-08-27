@@ -9,5 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-keyboard-totem-7racker
+      remote: taz
+      revision: main
   self:
     path: config

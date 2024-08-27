@@ -7,3 +7,7 @@
 #
 ---
 include:
+- board: seeeduino_xiao_ble
+  shield: totem-7racker_left
+- board: seeeduino_xiao_ble
+  shield: totem-7racker_right
