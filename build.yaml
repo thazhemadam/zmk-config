@@ -11,3 +11,5 @@ include:
   shield: totem-7racker_left
 - board: seeeduino_xiao_ble
   shield: totem-7racker_right
+- board: waveshare_rp2040_zero
+  shield: kaizen

@@ -12,5 +12,8 @@ manifest:
     - name: zmk-keyboard-totem-7racker
       remote: taz
       revision: main
+    - name: zmk-keyboard-kaizen
+      remote: taz
+      revision: main
   self:
     path: config
