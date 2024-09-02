@@ -4,11 +4,17 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: taz
       url-base: https://github.com/thazhemadam
+    - name: fingerpunch
+      url-base: https://github.com/sadekbaroudi
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-fingerpunch-vik
+      remote: fingerpunch
+      revision: main
+      import: config/deps.yml
     - name: zmk-keyboard-totem-7racker
       remote: taz
       revision: main
