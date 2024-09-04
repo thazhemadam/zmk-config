@@ -1,0 +1,9 @@
+if SHIELD_PEACOCK
+
+config ZMK_KEYBOARD_NAME
+    default "peacock"
+
+config ZMK_USB
+    default "y"
+
+endif

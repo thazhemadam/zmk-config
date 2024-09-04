@@ -13,3 +13,5 @@ include:
   shield: totem-7racker_right
 - board: waveshare_rp2040_zero
   shield: kaizen
+- board: nice_nano_v2
+  shield: peacock peacock_vik_module

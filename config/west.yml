@@ -6,10 +6,16 @@ manifest:
       url-base: https://github.com/thazhemadam
     - name: fingerpunch
       url-base: https://github.com/sadekbaroudi
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: petejohanson
+      revision: feat/pointers-move-scroll-ptp
       import: app/west.yml
     - name: zmk-fingerpunch-vik
       remote: fingerpunch
@@ -21,5 +27,9 @@ manifest:
     - name: zmk-keyboard-kaizen
       remote: taz
       revision: main
+    - name: maxtouch-zephyr-module
+      remote: petejohanson
+      revision: main
+      import: config/west.yml
   self:
     path: config
