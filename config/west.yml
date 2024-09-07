@@ -27,6 +27,9 @@ manifest:
     - name: zmk-keyboard-kaizen
       remote: taz
       revision: main
+    - name: zmk-keyboard-chocV
+      remote: taz
+      revision: main
     - name: maxtouch-zephyr-module
       remote: petejohanson
       revision: main

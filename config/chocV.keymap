@@ -1,0 +1,104 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ * and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        label = "ChocV";
+
+        Alpha {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "ALPHA";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃     Q     ┃     W     ┃     E     ┃     R     ┃     T     ┃   ┃     Y     ┃     U     ┃     I     ┃     O     ┃     P     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃
+            //             ┗━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
+            bindings = <
+&kp Q         &kp W       &kp E        &kp R            &kp T      &kp Y      &kp U        &kp I        &kp O       &kp P
+&mt LSHIFT A  &mt LALT S  &mt LCTRL D  &mt LGUI F       &kp G      &kp H      &mt RGUI J   &mt RCTRL K  &mt RALT L  &mt RSHFT SINGLE_QUOTE
+&kp Z         &kp X       &kp C        &kp V            &kp B      &kp N      &kp M        &kp COMMA    &kp PERIOD  &kp SLASH
+                          &kp DEL      &lt 2 BACKSPACE  &lt 3 TAB  &kp ENTER  &lt 1 SPACE  &kp ESCAPE
+            >;
+        };
+
+        Navigation {
+            label = "NAV";
+            bindings = <
+&trans     &trans    &trans     &trans    &trans    &trans          &trans     &trans        &trans     &trans
+&kp LSHFT  &kp LALT  &kp LCTRL  &kp LGUI  &kp LBKT  &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans
+&trans     &trans    &trans     &trans    &trans    &kp HOME        &kp PG_DN  &kp PG_UP     &kp END    &trans
+                     &trans     &mo 4     &trans    &trans          &trans     &trans
+            >;
+        };
+
+        Numbers {
+            label = "NUM";
+            bindings = <
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LSHFT     &kp LEFT_ALT  &kp LCTRL     &kp RGUI      &trans  &kp MINUS     &kp EQUAL     &none         &none         &none
+&trans        &trans        &trans        &trans        &trans  &kp COLON     &kp PLUS      &none         &none         &none
+                            &trans        &trans        &trans  &sl 5         &trans        &trans
+            >;
+        };
+
+        Symbols {
+            label = "SYM";
+            bindings = <
+&kp EXCL        &kp AT        &kp HASH          &kp DLLR      &kp PRCNT   &kp CARET  &kp AMPS  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &caps_word  &none      &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp RA(O)
+&trans          &kp RA(F18)   &kp RA(F19)       &trans        &trans      &none      &none     &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp C_NEXT
+                              &bootloader       &trans        &trans      &trans     &trans    &kp C_PP
+            >;
+        };
+
+        Multimedia {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans      &trans             &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp K_MUTE  &trans             &trans           &trans  &trans
+                &trans  &trans  &trans  &trans      &trans             &trans
+            >;
+
+            label = "MEDIA";
+        };
+
+        Function {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "FUN";
+        };
+
+        Bluetooth {
+            bindings = <
+&bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 3    &bt BT_SEL 3   &bt BT_SEL 4   &trans      &trans  &trans  &trans  &bt BT_PRV
+&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2   &bt BT_DISC 3  &bt BT_DISC 4  &trans      &trans  &trans  &trans  &trans
+&trans         &trans         &bt BT_CLR      &trans         &trans         &bt BT_NXT  &trans  &trans  &trans  &trans
+                              &bt BT_CLR_ALL  &trans         &trans         &trans      &trans  &trans
+            >;
+
+            label = "BLE";
+        };
+    };
+};
