@@ -1,5 +1,12 @@
 name: "Build ZMK Firmware"
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    paths:
+      - boards/**
+      - config/**.keymap
+      - build.yaml
+  pull_request:
+  workflow_dispatch:
 
 concurrency:
   group: "${{ github.workflow }}-${{ github.ref }}"
