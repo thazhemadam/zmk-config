@@ -1,4 +1,6 @@
 {
+  "id": "chocV",
+  "name": "chocV",
   "layouts": {
     "LAYOUT": {
       "layout": [
@@ -43,5 +45,6 @@
         { "row": 3, "col": 7, "x":  8.435, "y": 2.939, "r": -8, "rx":  8.935, "ry": 3.439 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
