@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/sadekbaroudi
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -17,6 +19,9 @@ manifest:
       remote: petejohanson
       revision: feat/pointers-move-scroll-ptp
       import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: main
     - name: zmk-fingerpunch-vik
       remote: fingerpunch
       revision: main
