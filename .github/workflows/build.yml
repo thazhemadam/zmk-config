@@ -15,5 +15,6 @@ concurrency:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    if: ${{ github.actor != 'keymap-editor[bot]' }}
     with:
       archive_name: "firmware-${{ github.sha }}"
