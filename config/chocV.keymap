@@ -49,7 +49,7 @@
 
         Capslock {
             bindings = <&caps_word>;
-            key-positions = <10 19>;
+            key-positions = <19 10>;
         };
     };
 
@@ -77,7 +77,7 @@
 &kp Q            &kp W          &kp E           &kp R            &kp T      &kp Y      &kp U          &kp I           &kp O          &kp P
 &hrm_l LSHIFT A  &hrm_l LALT S  &hrm_l LCTRL D  &hrm_l LGUI F    &kp G      &kp H      &hrm_r RGUI J  &hrm_r RCTRL K  &hrm_r RALT L  &hrm_r RSHFT SINGLE_QUOTE
 &kp Z            &kp X          &kp C           &kp V            &kp B      &kp N      &kp M          &kp COMMA       &kp PERIOD     &kp SLASH
-                                &kp DEL         &lt 2 BACKSPACE  &lt 3 TAB  &kp ENTER  &lt 1 SPACE    &kp ESCAPE
+                                &kp DEL         &lt 2 BACKSPACE  &lt 3 TAB  &kp ENTER  &lt 1 SPACE    &gresc
             >;
         };
 
@@ -95,9 +95,9 @@
             label = "NUM";
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LSHFT     &kp LEFT_ALT  &kp LCTRL     &kp RGUI      &trans  &kp MINUS     &kp EQUAL     &none         &none         &none
-&trans        &trans        &trans        &trans        &trans  &kp COLON     &kp PLUS      &none         &none         &none
-                            &trans        &trans        &trans  &sl 5         &trans        &trans
+&kp LSHFT     &kp LEFT_ALT  &kp LCTRL     &kp RGUI      &trans  &kp MINUS     &kp EQUAL     &none         &none         &kp SEMICOLON
+&trans        &trans        &trans        &trans        &trans  &kp COLON     &kp PLUS      &trans        &none         &none
+                            &trans        &trans        &trans  &sl 5         &trans        &kp TILDE
             >;
         };
 
@@ -107,7 +107,7 @@
 &kp EXCL        &kp AT        &kp HASH          &kp DLLR      &kp PRCNT     &kp CARET  &kp AMPS  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp CAPSLOCK  &none      &none     &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp RA(O)
 &trans          &kp RA(F18)   &kp RA(F19)       &trans        &trans        &none      &none     &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp C_NEXT
-                              &bootloader       &trans        &trans        &trans     &trans    &kp C_PP
+                              &bootloader       &trans        &trans        &trans     &trans    &trans
             >;
         };
 
