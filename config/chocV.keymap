@@ -96,7 +96,7 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp LSHFT     &kp LEFT_ALT  &kp LCTRL     &kp RGUI      &trans  &kp MINUS     &kp EQUAL     &none         &none         &kp SEMICOLON
-&trans        &trans        &trans        &trans        &trans  &kp COLON     &kp PLUS      &trans        &none         &none
+&trans        &trans        &trans        &trans        &sl 6   &kp COLON     &kp PLUS      &trans        &none         &none
                             &trans        &trans        &trans  &sl 5         &trans        &kp TILDE
             >;
         };
