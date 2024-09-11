@@ -15,6 +15,10 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4  // right-hand keys
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                      // thumb keys
 
+&soft_off {
+    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
+};
+
 / {
     behaviors {
         hrm_l: homerow_mods_left {
@@ -52,7 +56,7 @@
             key-positions = <19 10>;
         };
     };
-
+ 
     keymap {
         compatible = "zmk,keymap";
         label = "ChocV";
@@ -113,7 +117,7 @@
 
         Multimedia {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans      &trans             &trans           &trans  &trans
+&soft_off  &trans  &trans  &trans  &trans  &trans      &trans             &trans           &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp K_MUTE  &trans             &trans           &trans  &trans
                 &trans  &trans  &trans  &trans      &trans             &trans
