@@ -17,3 +17,5 @@ include:
   shield: peacock peacock_vik_module
 - board: nice_nano_v2
   shield: chocV
+- board: vulpes_majora_v1
+  shield: vik_pmw3360_per56
