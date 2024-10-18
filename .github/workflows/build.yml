@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - boards/**
+      - config/include/**
       - config/**.keymap
       - build.yaml
   pull_request:
