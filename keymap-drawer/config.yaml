@@ -1,2 +1,281 @@
 parse_config:
   zmk_additional_includes: ["zmk-helpers/include"]
+  sticky_label: $$mdi:sticker-outline$$
+  tap_toggle_label: $$mdi:toggle-switch$$
+  raw_binding_map:
+    # Mouse Keys
+    # mouse move
+    '&mmv MOVE_LEFT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-left$$
+      type:    adjacent
+    '&mmv MOVE_DOWN':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-down$$
+      type:    adjacent
+    '&mmv MOVE_UP':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-up$$
+      type:    adjacent
+    '&mmv MOVE_RIGHT':
+      tap:     $$mdi:mouse$$
+      shifted: $$mdi:arrow-right$$
+      type:    adjacent
+
+    # mouse scroll
+    '&msc SCRL_LEFT':
+      tap:     $$mdi:mouse-scroll-wheel$$
+      shifted: $$mdi:arrow-left$$
+      type:    adjacent
+    '&msc SCRL_DOWN':
+      tap:     $$mdi:mouse-scroll-wheel$$
+      shifted: $$mdi:arrow-right$$
+      type:    adjacent
+    '&msc SCRL_UP':
+      tap:     $$mdi:mouse-scroll-wheel$$
+      shifted: $$mdi:arrow-up$$
+      type:    adjacent
+    '&msc SCRL_RIGHT':
+      tap:     $$mdi:mouse-scroll-wheel$$
+      shifted: $$mdi:arrow-down$$
+      type:    adjacent
+
+    # mouse click
+    '&mkp LCLK':  $$mdi:mouse-left-click$$
+    '&mkp MCLK':
+      tap:        $$mdi:mouse-scroll-wheel$$
+      shifted:    $$mdi:cursor-default-click$$
+      type:       adjacent
+    '&mkp RCLK':  $$mdi:mouse-right-click$$
+
+    # mouse buttons
+    # TODO: Fix the alignment
+    '&mkp MB4':
+      tap:      $$mdi:cursor-default-click$$
+      shifted:  '4'
+      type:     adjacent
+    '&mkp MB5':
+      tap:      $$mdi:cursor-default-click$$
+      shifted:  '5'
+      type:     adjacent
+
+    # Sys 
+    '&bootloader':
+      tap:        $$mdi:flash$$
+      shifted:    $$mdi:micro-sd$$
+      hold:       $$mdi:new-box$$
+      type:       adjacent
+    '&sys_reset': $$mdi:restart$$
+
+  zmk_keycode_map:
+    # Symbols
+    EXCLAMATION: "!"
+    EXCL: "!"
+    AT_SIGN: "@"
+    AT: "@"
+    HASH: "#"
+    POUND: "#"
+    DOLLAR: $
+    DLLR: $
+    PERCENT: "%"
+    PRCNT: "%"
+    CARET: ^
+    AMPERSAND: "&"
+    AMPS: "&"
+    ASTERISK: "*"
+    ASTRK: "*"
+    STAR: "*"
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL:
+      tap: "="
+      shifted: "+"
+    PLUS: +
+    MINUS:
+      tap: "-"
+      shifted: "_"
+    UNDERSCORE: _
+    UNDER: _
+    SLASH:
+      tap: "/"
+      shifted: "?"
+    FSLH:
+      tap: "/"
+      shifted: "?"
+    QUESTION: "?"
+    QMARK: "?"
+    BACKSLASH:
+      tap: '\'
+      shifted: "|"
+    BSLH:
+      tap: '\'
+      shifted: "|"
+    PIPE: "|"
+    NON_US_BACKSLASH: \
+    PIPE2: "|"
+    NON_US_BSLH: "|"
+    SEMICOLON:
+      tap: ";"
+      shifted: ":"
+    SEMI:
+      tap: ";"
+      shifted: ":"
+    COLON: ":"
+    SINGLE_QUOTE:
+      tap: "'"
+      shifted: '"'
+    SQT:
+      tap: "'"
+      shifted: '"'
+    APOSTROPHE: <
+    APOS: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    LESS_THAN: <
+    LT: <
+    DOT:
+      tap: "."
+      shifted: ">"
+    COMMA:
+      tap: ","
+      shifted: "<"
+    GREATER_THAN: ">"
+    GT: ">"
+    LEFT_BRACKET:
+      tap: "["
+      shifted: "{"
+    LBKT:
+      tap: "["
+      shifted: "{"
+    LEFT_BRACE: "{"
+    LBRC: "{"
+    RIGHT_BRACKET:
+      tap: "]"
+      shifted: "}"
+    RBKT:
+      tap: "]"
+      shifted: "}"
+    RIGHT_BRACE: "}"
+    RBRC: "}"
+    GRAVE:
+      tap: "`"
+      shifted: "~"
+    TILDE: "~"
+    NON_US_HASH: "#"
+    NUHS: "#"
+    TILDE2: "~"
+
+    # Numbers
+    N1:
+      tap: 1
+      shifted: "!"
+    N2:
+      tap: 2
+      shifted: "@"
+    N3:
+      tap: 3
+      shifted: "#"
+    N4:
+      tap: 4
+      shifted: "$"
+    N5:
+      tap: 5
+      shifted: "%"
+    N6:
+      tap: 6
+      shifted: "^"
+    N7:
+      tap: 7
+      shifted: "&"
+    N8:
+      tap: 8
+      shifted: "*"
+    N9:
+      tap: 9
+      shifted: "("
+    N0:
+      tap: 0
+      shifted: ")"
+
+    # Modifiers
+    LCTRL:  $$mdi:apple-keyboard-control$$
+    LALT:   $$mdi:apple-keyboard-option$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT:  $$mdi:apple-keyboard-shift$$
+    LGUI:   $$mdi:apple-keyboard-command$$
+    RCTRL:  $$mdi:apple-keyboard-control$$
+    RALT:   $$mdi:apple-keyboard-option$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT:  $$mdi:apple-keyboard-shift$$
+    RGUI:   $$mdi:apple-keyboard-command$$
+
+    # Arrows
+    UP:     $$mdi:arrow-up$$
+    DOWN:   $$mdi:arrow-down$$
+    LEFT:   $$mdi:arrow-left$$
+    RIGHT:  $$mdi:arrow-right$$
+    END:    $$mdi:page-last$$
+    HOME:   $$mdi:page-first$$
+    PG_UP:  $$mdi:sort-ascending$$
+    PG_DN:  $$mdi:sort-descending$$
+
+    # Whitespace
+    ENTER:
+      type: enter
+      tap:  $$mdi:keyboard-return$$
+    ESC:    $$mdi:keyboard-esc$$
+    ESCAPE: $$mdi:keyboard-esc$$
+    TAB:    $$mdi:keyboard-tab$$
+    SPACE:  $$mdi:keyboard-space$$
+    BACKSPACE:
+      type: backspace
+      tap:  $$mdi:backspace$$
+    BSPC:
+      type: backspace
+      tap:  $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+    DEL:    $$mdi:backspace-reverse-outline$$
+
+    # Locks
+    CAPSLOCK: $$mdi:apple-keyboard-caps$$
+    CAPS:     $$mdi:apple-keyboard-caps$$
+
+    # Sound
+    C_MUTE:   $$mdi:volume-off$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
+
+    # Media
+    C_NEXT: $$mdi:skip-next$$
+    C_PREV: $$mdi:skip-previous$$
+    C_PP:   $$mdi:play-pause$$
+
+    # Bluetooth
+    BT_CLR: $$mdi:bluetooth-off$$
+    BT_SEL: $$mdi:bluetooth-connect$$
+
+    # # Settings
+    # C_BRI_UP: $$mdi:brightness-5$$
+    # C_BRI_DN: $$mdi:brightness-7$$
+
+draw_config:
+  dark_mode: "auto"
+  separate_combo_diagrams: true
+
+  svg_extra_style: |
+    /*
+     * Transparent, None and Ghost Keys.
+     */
+    .trans, .none, .ghost {
+      opacity: 0.4;
+    }
+
+    .adjacent.tap {
+      translate: -0.4em 0em;
+    }
+    .adjacent.shifted {
+      translate: 0.8em 1.2em; //TODO: Perfectly position this in the center. 
+      opacity: 1.0;
+    }
