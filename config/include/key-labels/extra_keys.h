@@ -64,6 +64,9 @@
     #ifndef X_LT_6
         #define X_LT_6 X_LT_TRANS
     #endif
+    #ifndef X_LT_7
+        #define X_LT_7 X_LT_TRANS
+    #endif
 #else
     #define X_LT_0
     #define X_LT_1
@@ -72,6 +75,7 @@
     #define X_LT_4
     #define X_LT_5
     #define X_LT_6
+    #define X_LT_7
 #endif
 
 // Left: Middle Row
@@ -103,6 +107,9 @@
     #ifndef X_LM_6
         #define X_LM_6 X_LM_TRANS
     #endif
+    #ifndef X_LM_7
+        #define X_LM_7 X_LM_TRANS
+    #endif
 #else
     #define X_LM_0
     #define X_LM_1
@@ -111,6 +118,7 @@
     #define X_LM_4
     #define X_LM_5
     #define X_LM_6
+    #define X_LM_7
 #endif
 
 // Left: Bottom Row
@@ -142,6 +150,9 @@
     #ifndef X_LB_6
         #define X_LB_6 X_LB_TRANS
     #endif
+    #ifndef X_LB_7
+        #define X_LB_7 X_LB_TRANS
+    #endif
 #else
     #define X_LB_0
     #define X_LB_1
@@ -150,6 +161,7 @@
     #define X_LB_4
     #define X_LB_5
     #define X_LB_6
+    #define X_LB_7
 #endif
 
 // Left: Thumb Row
@@ -181,6 +193,10 @@
     #ifndef X_LH_6
         #define X_LH_6 X_LH_TRANS
     #endif
+    #ifndef X_LH_7
+        #define X_LH_7 X_LH_TRANS
+    #endif
+
 #else
     #define X_LH_0
     #define X_LH_1
@@ -189,6 +205,7 @@
     #define X_LH_4
     #define X_LH_5
     #define X_LH_6
+    #define X_LH_7
 #endif
 
 
@@ -222,6 +239,9 @@
     #ifndef X_MT_6
         #define X_MT_6 X_MT_TRANS
     #endif
+    #ifndef X_MT_7
+        #define X_MT_7 X_MT_TRANS
+    #endif
 #else
     #define X_MT_0
     #define X_MT_1
@@ -230,6 +250,7 @@
     #define X_MT_4
     #define X_MT_5
     #define X_MT_6
+    #define X_MT_7
 #endif
 
 // Middle: Middle Row
@@ -261,6 +282,9 @@
     #ifndef X_MM_6
         #define X_MM_6 X_MM_TRANS
     #endif
+    #ifndef X_MM_7
+        #define X_MM_7 X_MM_TRANS
+    #endif
 #else
     #define X_MM_0
     #define X_MM_1
@@ -269,6 +293,7 @@
     #define X_MM_4
     #define X_MM_5
     #define X_MM_6
+    #define X_MM_7
 #endif
 
 // Middle: Bottom Row
@@ -300,6 +325,9 @@
     #ifndef X_MB_6
         #define X_MB_6 X_MB_TRANS
     #endif
+    #ifndef X_MB_7
+        #define X_MB_7 X_MB_TRANS
+    #endif
 #else
     #define X_MB_0
     #define X_MB_1
@@ -308,6 +336,7 @@
     #define X_MB_4
     #define X_MB_5
     #define X_MB_6
+    #define X_MB_7
 #endif
 
 // Middle: Thumb Row
@@ -339,6 +368,9 @@
     #ifndef X_MH_6
         #define X_MH_6 X_MH_TRANS
     #endif
+    #ifndef X_MH_7
+        #define X_MH_7 X_MH_TRANS
+    #endif
 #else
     #define X_MH_0
     #define X_MH_1
@@ -347,6 +379,7 @@
     #define X_MH_4
     #define X_MH_5
     #define X_MH_6
+    #define X_MH_7
 #endif
 
 
@@ -380,6 +413,9 @@
     #ifndef X_RT_6
         #define X_RT_6 X_RT_TRANS
     #endif
+    #ifndef X_RT_7
+        #define X_RT_7 X_RT_TRANS
+    #endif
 #else
     #define X_RT_0
     #define X_RT_1
@@ -388,6 +424,7 @@
     #define X_RT_4
     #define X_RT_5
     #define X_RT_6
+    #define X_RT_7
 #endif
 
 // Right: Middle Row
@@ -419,6 +456,9 @@
     #ifndef X_RM_6
         #define X_RM_6 X_RM_TRANS
     #endif
+    #ifndef X_RM_7
+        #define X_RM_7 X_RM_TRANS
+    #endif
 #else
     #define X_RM_0
     #define X_RM_1
@@ -427,6 +467,7 @@
     #define X_RM_4
     #define X_RM_5
     #define X_RM_6
+    #define X_RM_7
 #endif
 
 // Right: Bottom Row
@@ -458,6 +499,9 @@
     #ifndef X_RB_6
         #define X_RB_6 X_RB_TRANS
     #endif
+    #ifndef X_RB_7
+        #define X_RB_7 X_RB_TRANS
+    #endif
 #else
     #define X_RB_0
     #define X_RB_1
@@ -466,6 +510,7 @@
     #define X_RB_4
     #define X_RB_5
     #define X_RB_6
+    #define X_RB_7
 #endif
 
 // Right: Thumb Row
@@ -497,6 +542,9 @@
     #ifndef X_RH_6
         #define X_RH_6 X_RH_TRANS
     #endif
+    #ifndef X_RH_7
+        #define X_RH_7 X_RH_TRANS
+    #endif
 #else
     #define X_RH_0
     #define X_RH_1
@@ -505,4 +553,5 @@
     #define X_RH_4
     #define X_RH_5
     #define X_RH_6
+    #define X_RH_7
 #endif
