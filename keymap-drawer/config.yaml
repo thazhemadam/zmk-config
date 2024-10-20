@@ -3,6 +3,11 @@ parse_config:
   sticky_label: $$mdi:sticker-outline$$
   tap_toggle_label: $$mdi:toggle-switch$$
   raw_binding_map:
+    # Smart Layers
+    '&backspace_num NUM DEF':
+      tap:  $$mdi:backspace$$
+      hold: $$mdi:numeric$$
+
     # Mouse Keys
     # mouse move
     '&mmv MOVE_LEFT':
