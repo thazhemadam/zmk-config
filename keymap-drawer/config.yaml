@@ -275,8 +275,10 @@ parse_config:
     BT_SEL: $$mdi:bluetooth-connect$$
 
     # Settings
-    C_BRI_UP: $$mdi:brightness-5$$
-    C_BRI_DN: $$mdi:brightness-7$$
+    C_BRI_MIN:  $$mdi:brightness-4$$
+    C_BRI_UP:   $$mdi:brightness-6$$
+    C_BRI_DN:   $$mdi:brightness-5$$
+    C_BRI_MAX:  $$mdi:brightness-7$$
 
 draw_config:
   dark_mode: "auto"
