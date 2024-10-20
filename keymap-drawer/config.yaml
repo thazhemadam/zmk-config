@@ -2,7 +2,17 @@ parse_config:
   zmk_additional_includes: ["zmk-helpers/include"]
   sticky_label: $$mdi:sticker-outline$$
   tap_toggle_label: $$mdi:toggle-switch$$
+
   raw_binding_map:
+    # Layers
+    # Layer Keys
+    '&lt SYM TAB':
+      tap:  $$mdi:keyboard-tab$$
+      hold: $$mdi:symbol$$
+    '&lt FN ENTER':
+      tap:  $$mdi:keyboard-return$$
+      hold: $$mdi:alpha-f$$
+
     # Smart Layers
     '&space_nav NAV DEF':
       tap:  $$mdi:keyboard-space$$
