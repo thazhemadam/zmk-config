@@ -4,6 +4,9 @@ parse_config:
   tap_toggle_label: $$mdi:toggle-switch$$
   raw_binding_map:
     # Smart Layers
+    '&space_nav NAV DEF':
+      tap:  $$mdi:keyboard-space$$
+      hold: $$mdi:arrow-all$$
     '&backspace_num NUM DEF':
       tap:  $$mdi:backspace$$
       hold: $$mdi:numeric$$
