@@ -200,8 +200,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:brightness-6$$
   - $$mdi:brightness-5$$
-  - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:volume-low$$
@@ -210,8 +210,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRI MAX
-  - BRI MIN
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-4$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:volume-off$$
@@ -242,7 +242,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-left$$', type: adjacent}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-right$$', type: adjacent}
-  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-up$$', type: adjacent}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-up$$', type: adjacent}
   - {t: '$$mdi:mouse-scroll-wheel$$', s: '$$mdi:arrow-down$$', type: adjacent}
   - {t: ▽, type: trans}
@@ -253,6 +252,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-left$$', type: adjacent}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-down$$', type: adjacent}
+  - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-up$$', type: adjacent}
   - {t: '$$mdi:mouse$$', s: '$$mdi:arrow-right$$', type: adjacent}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
