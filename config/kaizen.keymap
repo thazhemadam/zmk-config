@@ -4,10 +4,10 @@
 #define X_LH_0 &kp DELETE
 
 #define X_RH_N 11
-#define X_RH_0                                   \
-                                  &kp ESCAPE    \
-           &kp Y                  &kp U         \
-    &kp I  &kp O  &kp P    &kp Y  &kp U  &kp I  \
-           &kp O                  &kp P
+#define X_RH_0                                               \
+                                          &kp ESCAPE        \
+             &kp F15                      &kp F20           \
+    &kp F16  &kp F17  &kp F18    &kp F21  &kp F22  &kp F23  \
+             &kp F19                      &kp F24
 
 #include "base.keymap"
