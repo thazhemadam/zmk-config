@@ -22,6 +22,19 @@ ZMK_TAP_DANCE(bspc_num_dance,
     bindings = <&kp BACKSPACE>, <&num_word NUM>;
 )
 
+// tap: space | double-tap: smart nav-layer | hold: nav-layer
+#define SPACE_NAV &space_nav NAV DEF
+ZMK_HOLD_TAP(space_nav,
+    flavor = "balanced";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+    bindings = <&mo>, <&space_nav_dance>;
+)
+ZMK_TAP_DANCE(space_nav_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp SPACE>, <&nav_word NAV>;
+)
+
 // smart-mouse, requires PR #1366
 ZMK_TRI_STATE(smart_mouse,
     bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
