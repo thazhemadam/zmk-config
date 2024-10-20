@@ -27,14 +27,14 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '&num_dance', h: num}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:sticker-outline$$', s: '&caps_word'}
-  - {t: '$$mdi:keyboard-return$$', h: fn}
-  - {t: '$$mdi:keyboard-space$$', h: nav, s: '&dot_spc'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:numeric$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:symbol$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:alpha-f$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-all$$'}
   - $$mdi:keyboard-esc$$
   nav:
   - {t: ▽, type: trans}
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   num:
   - {t: '1', s: '!'}
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -147,17 +147,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  fn:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,6 +160,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-7$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRI MAX
+  - BRI MIN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:volume-off$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,11 +182,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   mouse:
@@ -220,6 +220,43 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
+  - {t: ▽, type: trans}
+  fn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F12
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sys:
   - {t: ▽, type: trans}
