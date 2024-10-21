@@ -8,6 +8,6 @@
 #define X_LH_0 &kp DELETE
 
 #define X_RH_N 1
-#define X_RH_0 &kp ESCAPE
+#define X_RH_0 MOUSESCAPE
 
 #include "base.keymap"

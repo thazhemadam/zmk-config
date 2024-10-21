@@ -5,7 +5,7 @@
 
 #define X_RH_N 11
 #define X_RH_0                                               \
-                                          &kp ESCAPE        \
+                                          MOUSESCAPE        \
              &kp F15                      &kp F20           \
     &kp F16  &kp F17  &kp F18    &kp F21  &kp F22  &kp F23  \
              &kp F19                      &kp F24
