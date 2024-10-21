@@ -31,11 +31,11 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', h: '$$mdi:numeric$$'}
+  - {t: '&bspc_num_dance', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:alpha-f$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-all$$'}
-  - $$mdi:keyboard-esc$$
+  - {t: '&space_nav_dance', h: '$$mdi:arrow-all$$'}
+  - {t: '&esc_mouse_dance', h: '$$mdi:mouse$$'}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   num:
   - {t: '1', s: '!'}
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:mouse-left-click$$
   - $$mdi:mouse-right-click$$
-  - {t: ▽, type: trans}
+  - {type: held}
   fn:
   - F1
   - F2
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   sys:

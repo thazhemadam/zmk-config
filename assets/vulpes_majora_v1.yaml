@@ -38,13 +38,13 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: RET, h: nav}
+  - {t: RET, h: '$$mdi:arrow-all$$'}
   - {t: '$$mdi:keyboard-tab$$', h: func}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '$$mdi:backspace$$', h: media}
-  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:multimedia$$'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
   - {t: '''', s: '"'}
   - $$mdi:volume-high$$
   - $$mdi:volume-low$$
