@@ -16,6 +16,6 @@
 #define X_LH_0 &kp LSHIFT &kp DELETE
 
 #define X_RH_N 2
-#define X_RH_0 &kp ESCAPE &kp RSHIFT
+#define X_RH_0 MOUSESCAPE &kp RSHIFT
 
 #include "base.keymap"
