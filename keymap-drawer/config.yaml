@@ -4,22 +4,9 @@ parse_config:
   tap_toggle_label: $$mdi:toggle-switch$$
 
   raw_binding_map:
-    # Layers
-    # Layer Keys
-    '&lt SYM TAB':
-      tap:  $$mdi:keyboard-tab$$
-      hold: $$mdi:symbol$$
-    '&lt FN ENTER':
-      tap:  $$mdi:keyboard-return$$
-      hold: $$mdi:alpha-f$$
-
-    # Smart Layers
-    '&space_nav NAV DEF':
-      tap:  $$mdi:keyboard-space$$
-      hold: $$mdi:arrow-all$$
-    '&backspace_num NUM DEF':
-      tap:  $$mdi:backspace$$
-      hold: $$mdi:numeric$$
+    # Tap-dances on Smart Layers
+    '&space_nav_dance DEF': $$mdi:keyboard-space$$
+    '&bspc_num_dance DEF':  $$mdi:backspace$$
 
     # Mouse Keys
     # mouse move
@@ -84,6 +71,15 @@ parse_config:
       hold:       $$mdi:new-box$$
       type:       adjacent
     '&sys_reset': $$mdi:restart$$
+
+  layer_legend_map:
+    nav:    $$mdi:arrow-all$$
+    num:    $$mdi:numeric$$
+    sym:    $$mdi:symbol$$
+    media:  $$mdi:multimedia$$
+    mouse:  $$mdi:mouse$$
+    fn:     $$mdi:alpha-f$$
+    sys:    $$mdi:keyboard-settings$$
 
   zmk_keycode_map:
     # Symbols
