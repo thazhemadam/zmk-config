@@ -4,6 +4,12 @@ ZMK_AUTO_LAYER(nav_word,
     ignore-modifiers;
 )
 
+// auto-layer behavior for `MOUSE`
+ZMK_AUTO_LAYER(mouse_word,
+    continue-list = <LEFT DOWN UP RIGHT PG_DN PG_UP HOME END>;
+    ignore-modifiers;
+)
+
 /*
 // Alt+Tab swapper, requires PR #1366
 ZMK_TRI_STATE(swapper,
