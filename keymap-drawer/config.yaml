@@ -263,19 +263,18 @@ parse_config:
     C_VOL_DN: $$mdi:volume-low$$
 
     # Media
-    C_NEXT: $$mdi:skip-next$$
-    C_PREV: $$mdi:skip-previous$$
-    C_PP:   $$mdi:play-pause$$
-
-    # Bluetooth
-    BT_CLR: $$mdi:bluetooth-off$$
-    BT_SEL: $$mdi:bluetooth-connect$$
-
-    # Settings
+    C_NEXT:     $$mdi:skip-next$$
+    C_PREV:     $$mdi:skip-previous$$
+    C_PP:       $$mdi:play-pause$$
+    C_SNAPSHOT: $$mdi:monitor-screenshot$$
     C_BRI_MIN:  $$mdi:brightness-4$$
     C_BRI_UP:   $$mdi:brightness-6$$
     C_BRI_DN:   $$mdi:brightness-5$$
     C_BRI_MAX:  $$mdi:brightness-7$$
+
+    # Bluetooth
+    BT_CLR: $$mdi:bluetooth-off$$
+    BT_SEL: $$mdi:bluetooth-connect$$
 
 draw_config:
   dark_mode: "auto"
