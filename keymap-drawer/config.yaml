@@ -237,21 +237,15 @@ parse_config:
     PG_DN:  $$mdi:sort-descending$$
 
     # Whitespace
-    ENTER:
-      type: enter
-      tap:  $$mdi:keyboard-return$$
-    ESC:    $$mdi:keyboard-esc$$
-    ESCAPE: $$mdi:keyboard-esc$$
-    TAB:    $$mdi:keyboard-tab$$
-    SPACE:  $$mdi:keyboard-space$$
-    BACKSPACE:
-      type: backspace
-      tap:  $$mdi:backspace$$
-    BSPC:
-      type: backspace
-      tap:  $$mdi:backspace$$
-    DELETE: $$mdi:backspace-reverse-outline$$
-    DEL:    $$mdi:backspace-reverse-outline$$
+    ENTER:      $$mdi:keyboard-return$$
+    ESC:        $$mdi:keyboard-esc$$
+    ESCAPE:     $$mdi:keyboard-esc$$
+    TAB:        $$mdi:keyboard-tab$$
+    SPACE:      $$mdi:keyboard-space$$
+    BACKSPACE:  $$mdi:backspace$$
+    BSPC:       $$mdi:backspace$$
+    DELETE:     $$mdi:backspace-reverse-outline$$
+    DEL:        $$mdi:backspace-reverse-outline$$
 
     # Locks
     CAPSLOCK: $$mdi:apple-keyboard-caps$$
