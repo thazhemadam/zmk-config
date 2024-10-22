@@ -7,13 +7,15 @@
  * TODO:
  * Investigate the following keycodes.
  * - `&swapper`
- * - `&comma_morph`
- * - `&dot_morph`
- * - `&qexcl`
- * - `SMART_NUM`
- * - `lt_spc`
- * - `&smart_shft`
+ * - `&comma_morph`, `&dot_morph`, `&qexcl`
  * - `CANCEL`
+ */
+
+/*  TODO:
+ * `gresc`
+ * `caps_word`
+ * `lock`
+ * `sleep`
  */
 
 ZMK_LAYER(base,
