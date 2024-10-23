@@ -1,7 +1,7 @@
 #include "zmk-helpers/key-labels/36.h"
 
 #define X_LH_N 1
-#define X_LH_0 &kp DELETE
+#define X_LH_0 &lt SYS DELETE
 
 #define X_RH_N 11
 #define X_RH_0                                               \
