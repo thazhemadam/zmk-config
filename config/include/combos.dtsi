@@ -13,6 +13,14 @@
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
 
+// caps-word
+ZMK_COMBO(caps_word, &caps_word, LM4 RM4, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+
+// mods deactivate caps-word, requires PR #1451
+&caps_word {
+    /delete-property/ ignore-modifiers;
+};
+
 /*
 // Horizontal combos - left hand
 ZMK_COMBO(esc,   &kp ESC,      LT3 LT2,     DEF NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
