@@ -56,6 +56,22 @@
 #define R5R 58
 #define R5D 60
 
+/*
+ * Key counts.
+ * If you do not have all the keys in the default layout, overide the counts
+ * appropriately (in the respective region) in your keyboard's keymap before
+ * including `base.keymap`.
+ */
+#define X_LT_N 1
+#define X_LM_N 1
+#define X_LB_N 1
+#define X_LH_N 1
+#define X_MH_N 3
+#define X_RT_N 1
+#define X_RM_N 1
+#define X_RB_N 1
+#define X_RH_N 17 // 1 + 5 + 3 + 3 + 5
+
 /* Define the following headers in your keyboard's keymap before including `base.keymap`.
 #define X_LT LT5
 #define X_LM LM5
