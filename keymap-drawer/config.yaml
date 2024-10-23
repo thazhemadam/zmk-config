@@ -11,6 +11,9 @@ parse_config:
       tap:      $$mdi:keyboard-esc$$
       shifted:  "`"
 
+    # Combos
+    '&caps_word': $$mdi:apple-keyboard-caps$$
+
     # Mouse Keys
     # mouse move
     '&mmv MOVE_LEFT':
