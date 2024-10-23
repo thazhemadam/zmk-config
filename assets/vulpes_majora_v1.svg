@@ -893,7 +893,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(319, 210) rotate(15.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:apple-keyboard-caps"/>
 </g>
 <g transform="translate(597, 198) rotate(-15.0)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
