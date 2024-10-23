@@ -1,14 +1,5 @@
 #include <behaviors/num_word.dtsi> // requires auto-layer module
 
-// tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
-ZMK_MOD_MORPH(smart_shft,
-    bindings = <&sk LSHFT>, <&caps_word>;
-    mods = <(MOD_LSFT)>;
-)
-&caps_word {  // mods deactivate caps-word, requires PR #1451
-    /delete-property/ ignore-modifiers;
-};
-
 // tap: backspace | double-tap: num-word | hold: num-layer
 #define BACKSPACE_NUM &backspace_num NUM DEF
 ZMK_HOLD_TAP(backspace_num,
