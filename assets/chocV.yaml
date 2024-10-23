@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:alpha-f$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-all$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:mouse$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:mouse$$', s: '`'}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -295,3 +295,7 @@ layers:
   - $$mdi:restart$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [10, 19]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [base]

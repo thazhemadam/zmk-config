@@ -154,7 +154,7 @@ layers:
   - {t: '`', s: '~'}
   - Ctl+Sft+ $$mdi:keyboard-tab$$
   - Ctl+Gui+ $$mdi:arrow-left$$
-  - '&caps_word'
+  - $$mdi:apple-keyboard-caps$$
   - {t: ▽, type: trans}
   - Ctl+Gui+ $$mdi:arrow-right$$
   - Ctl+ $$mdi:keyboard-tab$$
