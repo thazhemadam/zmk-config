@@ -16,6 +16,9 @@
 // caps-word
 ZMK_COMBO(caps_word, &caps_word, LM4 RM4, DEF, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
+ZMK_COMBO(esc,    &kp ESC,    LT4 LT3, DEF NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(grave,  &kp GRAVE,  LT4 LT3,     NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+
 // mods deactivate caps-word, requires PR #1451
 &caps_word {
     /delete-property/ ignore-modifiers;
