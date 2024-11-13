@@ -4,6 +4,11 @@ parse_config:
   tap_toggle_label: $$mdi:toggle-switch$$
 
   raw_binding_map:
+    # `none` key
+    '&none':
+      tap: $$mdi:minus-circle-outline$$
+      type: none
+
     # Tap-dances on Smart Layers
     '&space_nav_dance DEF': $$mdi:keyboard-space$$
     '&bspc_num_dance DEF':  $$mdi:backspace$$
@@ -281,10 +286,17 @@ draw_config:
 
   svg_extra_style: |
     /*
-     * Transparent, None and Ghost Keys.
+     * Transparent and Ghost Keys.
      */
-    .trans, .none, .ghost {
+    .trans, .ghost {
       opacity: 0.4;
+    }
+
+    /*
+     * None Keys.
+     */
+    .none {
+      opacity: 0.2;
     }
 
     .adjacent.tap {
