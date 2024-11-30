@@ -20,6 +20,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> FFKB v2 </summary>
+  <img src="./assets/ffkb_v2.svg" alt="FFKB v2 Keymap">
+</details>
+
+* <details>
   <summary> totem-7racker </summary>
   <img src="./assets/totem-7racker.svg" alt="totem7racker Keymap">
 </details>
