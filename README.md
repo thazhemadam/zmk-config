@@ -20,6 +20,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> FFKB v2 </summary>
+  <img src="./assets/ffkb_v2.svg" alt="FFKB v2 Keymap">
+</details>
+
+* <details>
   <summary> roBa </summary>
   <img src="./assets/roBa.svg" alt="roBa Keymap">
 </details>

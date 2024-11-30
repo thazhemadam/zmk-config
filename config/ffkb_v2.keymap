@@ -1,0 +1,24 @@
+#include "zmk-helpers/key-labels/42.h"
+
+#define X_LH_N 2
+#define X_LH_0 &kp LSHIFT &lt SYS DELETE
+
+#define X_RH_N 2
+#define X_RH_0 MOUSESCAPE &kp RSHIFT
+
+// Since there's no layout defined for 5-col builds,
+// just define the extra keys to be dummy.
+#define X_LT_N 1
+#define X_LM_N 1
+#define X_LB_N 1
+#define X_RT_N 1
+#define X_RM_N 1
+#define X_RB_N 1
+#define X_LT_0 &none
+#define X_LM_0 &none
+#define X_LB_0 &none
+#define X_RT_0 &none
+#define X_RM_0 &none
+#define X_RB_0 &none
+
+#include "base.keymap"
