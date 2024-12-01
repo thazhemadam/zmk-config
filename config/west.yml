@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/urob
     - name: bullwinkle3000
       url-base: https://github.com/bullwinkle3000
+    - name: burkfers
+      url-base: https://github.com/burkfers
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -53,6 +55,9 @@ manifest:
       revision: pmw3360
     - name: chiptuner-zmk-module
       remote: petejohanson
+      revision: main
+    - name: zmk-bastardkb-module
+      remote: burkfers
       revision: main
     # - name: maxtouch-zephyr-module
     #   remote: petejohanson
