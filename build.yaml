@@ -21,4 +21,5 @@ include:
 # - board: vulpes_majora_v1
 #   shield: vik_pmw3360_per56
 - board: splinky
-  shield: tester_pro_micro
+  shield: tester_elitec
+
