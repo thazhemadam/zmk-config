@@ -14,16 +14,18 @@ manifest:
       url-base: https://github.com/bullwinkle3000
     - name: burkfers
       url-base: https://github.com/burkfers
+    - name: xudongzheng
+      url-base: https://github.com/xudongzheng
   projects:
+    - name: zmk
+      remote: xudongzheng
+      revision: split-serial-pr
+      import: app/west.yml
     # - name: zmk
     #   remote: zmkfirmware
     #   revision: main
+    #   # revision: feat/pointers-move-scroll-ptp  # necessary for peacock trackpad
     #   import: app/west.yml
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      # revision: feat/pointers-move-scroll-ptp  # necessary for peacock trackpad
-      import: app/west.yml
     - name: zmk-helpers
       remote: urob
       revision: main
