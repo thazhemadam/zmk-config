@@ -1,0 +1,6 @@
+file_format: "1"
+id: tester_elitec
+name: TesterEliteC
+type: shield
+url: https://zmk.dev/docs/troubleshooting/hardware-issues
+requires: [pro_micro]
