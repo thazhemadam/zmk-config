@@ -1,0 +1,11 @@
+#include "zmk-helpers/key-labels/36.h"
+
+#define X_LH_N 1
+#define X_LH_0 &lt SYS DELETE
+
+#define X_RH_N 1
+#define X_RH_0 MOUSESCAPE
+
+#include "base.keymap"
+
+ZMK_APPLY_MATRIX_TRANSFORM(five_col_transform)

@@ -10,6 +10,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> Acorn </summary>
+  <img src="./assets/acorn.svg" alt="Acorn Keymap">
+</details>
+
+* <details>
   <summary> chocV </summary>
   <img src="./assets/chocV.svg" alt="chocV Keymap">
 </details>
