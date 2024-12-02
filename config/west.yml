@@ -12,6 +12,8 @@ manifest:
       url-base: https://github.com/urob
     - name: bullwinkle3000
       url-base: https://github.com/bullwinkle3000
+    - name: numToStr
+      url-base: https://github.com/keeb-it
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -43,6 +45,9 @@ manifest:
       revision: main
     - name: zmk-keyboard-chocV
       remote: taz
+      revision: main
+    - name: zmk-keyboards
+      remote: numToStr
       revision: main
     - name: zmk-fingerpunch-keyboards
       remote: fingerpunch
