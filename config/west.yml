@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/keeb-it
     - name: kumamuk
       url-base: https://github.com/kumamuk-git
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -60,6 +62,9 @@ manifest:
       revision: main
     - name: zmk-pmw3610-driver
       remote: kumamuk
+      revision: main
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: badjeff
       revision: main
     # - name: zmk-pmw3610-driver
     #   remote: bullwinkle3000
