@@ -1,0 +1,9 @@
+#include "include/key-labels/roBa.h"
+
+#define X_MM_0 &kp EQUAL &kp MINUS
+#define X_MB_0 &kp SEMICOLON &kp COLON
+
+#define X_LH_0 &kp LCTRL &kp LGUI &kp LALT &lt SYS DELETE
+#define X_RH_0 &kp RSHIFT
+
+#include "base.keymap"
