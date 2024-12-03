@@ -41,7 +41,7 @@ manifest:
       import: config/deps.yml
     - name: zmk-keyboard-totem-7racker
       remote: taz
-      revision: main
+      revision: trackpoint
     - name: zmk-keyboard-kaizen
       remote: taz
       revision: main
