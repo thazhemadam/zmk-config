@@ -31,3 +31,8 @@ include:
   shield: chocV
 - board: vulpes_majora_v1
   shield: vik_pmw3360_per56
+
+- board: seeeduino_xiao_ble
+  shield: roBa_R
+- board: seeeduino_xiao_ble
+  shield: roBa_L

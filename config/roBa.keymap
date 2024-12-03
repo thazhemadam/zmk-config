@@ -1,0 +1,14 @@
+#include "zmk-helpers/key-labels/36.h"
+
+#define X_MM_N 2
+#define X_MM_0 &kp EQUAL &kp MINUS
+#define X_MB_N 2
+#define X_MB_0 &kp SEMICOLON &kp COLON
+
+#define X_LH_N 4
+#define X_LH_0 &kp LCTRL &kp LGUI &kp LALT &lt SYS DELETE
+
+#define X_RH_N 1
+#define X_RH_0 &kp RSHIFT
+
+#include "base.keymap"

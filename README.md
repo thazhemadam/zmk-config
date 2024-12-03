@@ -20,6 +20,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> roBa </summary>
+  <img src="./assets/roBa.svg" alt="roBa Keymap">
+</details>
+
+* <details>
   <summary> totem-7racker </summary>
   <img src="./assets/totem-7racker.svg" alt="totem7racker Keymap">
 </details>

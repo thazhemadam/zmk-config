@@ -26,6 +26,7 @@
 #define TRANSPARENT_1(t) t
 #define TRANSPARENT_2(t) t t
 #define TRANSPARENT_3(t) t t t
+#define TRANSPARENT_4(t) t t t t
 #define TRANSPARENT_11(t) t t t t t t t t t t t
 #define TRANSPARENT_17(t) TRANSPARENT_11(t) TRANSPARENT_3(t) TRANSPARENT_3(t)
 
