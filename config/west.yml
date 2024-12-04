@@ -52,7 +52,7 @@ manifest:
       remote: numToStr
       revision: main
     - name: zmk-fingerpunch-keyboards
-      remote: fingerpunch
+      remote: taz
       revision: main
       import: config/deps.yml
     - name: zmk-config-roBa
