@@ -53,7 +53,7 @@ manifest:
       revision: main
     - name: zmk-fingerpunch-keyboards
       remote: taz
-      revision: main
+      revision: ffkb-5-col
       import: config/deps.yml
     - name: zmk-config-roBa
       remote: taz
