@@ -1,0 +1,12 @@
+#include "zmk-helpers/key-labels/36.h"
+
+#define X_LH_N 1
+#define X_LH_0 &lt SYS DELETE
+
+#define X_MH_N 2
+#define X_MH_0 &kp X &kp Y
+
+#define X_RH_N 1
+#define X_RH_0 MOUSESCAPE
+
+#include "base.keymap"

@@ -16,6 +16,7 @@ manifest:
       url-base: https://github.com/keeb-it
     - name: kumamuk
       url-base: https://github.com/kumamuk-git
+
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -46,6 +47,9 @@ manifest:
       remote: taz
       revision: main
     - name: zmk-keyboard-chocV
+      remote: taz
+      revision: main
+    - name: zmk-keyboard-pteron36
       remote: taz
       revision: main
     - name: zmk-keyboards

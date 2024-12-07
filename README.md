@@ -25,6 +25,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> Pteron36 </summary>
+  <img src="./assets/pteron36.svg" alt="Pteron36 Keymap">
+</details>
+
+* <details>
   <summary> roBa </summary>
   <img src="./assets/roBa.svg" alt="roBa Keymap">
 </details>
