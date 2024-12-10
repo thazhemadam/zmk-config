@@ -37,7 +37,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - J
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:keyboard-settings$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-settings$$', s: '`'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:symbol$$'}
   - E
@@ -45,7 +45,7 @@ layers:
   - G
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:alpha-f$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-all$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:mouse$$', s: '`'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:mouse$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
