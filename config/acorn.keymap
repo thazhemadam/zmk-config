@@ -6,6 +6,8 @@
 #define X_RH_N 1
 #define X_RH_0 DELMOUSE
 
+#define HRM_TAPPING_TERM_MS 240
+
 #include "base.keymap"
 
 ZMK_APPLY_MATRIX_TRANSFORM(five_col_transform)
