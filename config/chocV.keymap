@@ -5,9 +5,9 @@
 // };
 
 #define X_LH_N 1
-#define X_LH_0 &lt SYS DELETE
+#define X_LH_0 SYSCAPE
 
 #define X_RH_N 1
-#define X_RH_0 MOUSESCAPE
+#define X_RH_0 DELMOUSE
 
 #include "base.keymap"
