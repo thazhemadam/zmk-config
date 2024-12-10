@@ -4,12 +4,12 @@
 #define BACKSPACE_NUM &backspace_num NUM DEF
 ZMK_HOLD_TAP(backspace_num,
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     quick-tap-ms = <QUICK_TAP_MS>;
     bindings = <&mo>, <&bspc_num_dance>;
 )
 ZMK_TAP_DANCE(bspc_num_dance,
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     bindings = <&kp BACKSPACE>, <&num_word NUM>;
 )
 
@@ -17,12 +17,12 @@ ZMK_TAP_DANCE(bspc_num_dance,
 #define SPACE_NAV &space_nav NAV DEF
 ZMK_HOLD_TAP(space_nav,
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     quick-tap-ms = <QUICK_TAP_MS>;
     bindings = <&mo>, <&space_nav_dance>;
 )
 ZMK_TAP_DANCE(space_nav_dance,
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     bindings = <&kp SPACE>, <&nav_word NAV>;
 )
 
@@ -30,12 +30,12 @@ ZMK_TAP_DANCE(space_nav_dance,
 #define MOUSESCAPE &esc_mouse MOUSE DEF
 ZMK_HOLD_TAP(esc_mouse,
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     quick-tap-ms = <QUICK_TAP_MS>;
     bindings = <&mo>, <&esc_mouse_dance>;
 )
 ZMK_TAP_DANCE(esc_mouse_dance,
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     bindings = <&gresc>, <&mouse_word MOUSE>;
 )
 

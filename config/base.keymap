@@ -12,7 +12,17 @@
 #include "include/layers.h"
 
 /* Global settings */
+#ifndef QUICK_TAP_MS
 #define QUICK_TAP_MS 175
+#endif
+
+#ifndef HRM_TAPPING_TERM_MS
+#define HRM_TAPPING_TERM_MS 280
+#endif
+
+#ifndef TAPPING_TERM_MS
+#define TAPPING_TERM_MS 200
+#endif
 
 &sk {  // sticky-key config
     release-after-ms = <900>;  // release after 0.9s
@@ -25,7 +35,7 @@
 
 &lt {  // layer-tap config
     flavor = "balanced";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <TAPPING_TERM_MS>;
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
@@ -40,7 +50,7 @@
 // long-tap action on hold, short-tap action on all interrupts
 #define MT_CORE \
     flavor = "tap-preferred"; \
-    tapping-term-ms = <220>; \
+    tapping-term-ms = <TAPPING_TERM_MS>; \
     quick-tap-ms = <220>; \
     hold-trigger-key-positions = <0>;
 
