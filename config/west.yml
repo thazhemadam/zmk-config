@@ -15,13 +15,9 @@ manifest:
     - name: numToStr
       url-base: https://github.com/keeb-it
   projects:
-    # - name: zmk
-    #   remote: zmkfirmware
-    #   revision: main
-    #   import: app/west.yml
     - name: zmk
-      remote: petejohanson
-      revision: feat/pointers-with-input-processors
+      remote: zmkfirmware
+      revision: main
       # revision: feat/pointers-move-scroll-ptp  # necessary for peacock trackpad
       import: app/west.yml
     - name: zmk-helpers
