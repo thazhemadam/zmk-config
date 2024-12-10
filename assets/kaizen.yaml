@@ -30,12 +30,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:keyboard-settings$$'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-settings$$', s: '`'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:alpha-f$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:arrow-all$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:mouse$$', s: '`'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:mouse$$'}
   - F15
   - F20
   - F16
