@@ -3,15 +3,15 @@
 #define X_LT &kp A
 #define X_LM &kp B
 #define X_LB &kp C
-#define X_LH &lt SYS DELETE
+#define X_LH SYSCAPE
 
 #define X_MH &kp E   &kp F   &kp G
 
 #define X_RT &kp H
 #define X_RM &kp I
 #define X_RB &kp J
-#define X_RH                             \
-                        MOUSESCAPE      \
+#define X_RH                          \
+                        DELMOUSE      \
         &kp N1  &kp N2  &kp N3          /* left  thumb rockers */  \
         &kp N4  &kp N5  &kp N6          /* right thumb rockers */  \
     &kp L  &kp M  &kp N  &kp O  &kp P   /* left  5-way switch  */  \

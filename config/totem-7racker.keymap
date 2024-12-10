@@ -13,9 +13,9 @@
 #include "zmk-helpers/key-labels/36.h"
 
 #define X_LH_N 2
-#define X_LH_0 &kp LSHIFT &lt SYS DELETE
+#define X_LH_0 &kp LSHIFT SYSCAPE
 
 #define X_RH_N 2
-#define X_RH_0 MOUSESCAPE &kp RSHIFT
+#define X_RH_0 DELMOUSE &kp RSHIFT
 
 #include "base.keymap"
