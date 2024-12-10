@@ -26,18 +26,17 @@ ZMK_TAP_DANCE(space_nav_dance,
     bindings = <&kp SPACE>, <&nav_word NAV>;
 )
 
-// tap: escape | mod + tap: ` | double-tap: smart mouse-layer | hold: mouse-layer
-#define MOUSESCAPE &esc_mouse MOUSE DEF
-ZMK_HOLD_TAP(esc_mouse,
+// tap: escape | mod + tap: ` | hold: sys-layer
+#define SYSCAPE &sys_esc SYS DEF
+ZMK_HOLD_TAP(sys_esc,
     flavor = "balanced";
     tapping-term-ms = <TAPPING_TERM_MS>;
     quick-tap-ms = <QUICK_TAP_MS>;
-    bindings = <&mo>, <&esc_mouse_dance>;
+    bindings = <&mo>, <&gresc>;
 )
-ZMK_TAP_DANCE(esc_mouse_dance,
-    tapping-term-ms = <TAPPING_TERM_MS>;
-    bindings = <&gresc>, <&mouse_word MOUSE>;
-)
+
+// tap: delete | hold: mouse-layer
+#define DELMOUSE &lt MOUSE DELETE
 
 // // smart-mouse, requires PR #1366
 // ZMK_TRI_STATE(smart_mouse,
