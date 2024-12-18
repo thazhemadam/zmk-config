@@ -46,8 +46,8 @@ manifest:
     - name: zmk-keyboard-chocV
       remote: taz
       revision: main
-    - name: zmk-keyboards
-      remote: numToStr
+    - name: zmk-keeb-it-keyboards
+      remote: taz
       revision: main
     - name: zmk-fingerpunch-keyboards
       remote: fingerpunch

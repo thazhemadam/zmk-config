@@ -7,17 +7,19 @@
 #
 ---
 include:
-- board: seeeduino_xiao_ble
-  shield: totem-7racker_left
-- board: seeeduino_xiao_ble
-  shield: totem-7racker_right
+# - board: seeeduino_xiao_ble
+#   shield: totem-7racker_left
+# - board: seeeduino_xiao_ble
+#   shield: totem-7racker_right
 
-- board: waveshare_rp2040_zero
-  shield: kaizen
+# - board: waveshare_rp2040_zero
+#   shield: kaizen
 # requires the `feat/pointers-move-scroll-ptp` zmk branch and the `maxtouch-zephyr-module` driver
 # - board: nice_nano_v2
 #   shield: peacock peacock_vik_module
 
+- board: seeeduino_xiao_ble
+  shield: acorn_central_dongle
 - board: seeeduino_xiao_ble
   shield: acorn_central_dongle prospector_adapter
 - board: nice_nano_v2
@@ -25,17 +27,17 @@ include:
 - board: nice_nano_v2
   shield: acorn_peripheral_right
 
-- board: nice_nano_v2
-  shield: chocV
-- board: nice_nano_v2
-  shield: ffkb_v2
-- board: vulpes_majora_v1
-  shield: vik_pmw3360_per56
+# - board: nice_nano_v2
+#   shield: chocV
+# - board: nice_nano_v2
+#   shield: ffkb_v2
+# - board: vulpes_majora_v1
+#   shield: vik_pmw3360_per56
 
-- board: seeeduino_xiao_ble
-  shield: roBa_R
-- board: seeeduino_xiao_ble
-  shield: roBa_L
+# - board: seeeduino_xiao_ble
+#   shield: roBa_R
+# - board: seeeduino_xiao_ble
+#   shield: roBa_L
 
 - board: nice_nano_v2
   shield: settings_reset
