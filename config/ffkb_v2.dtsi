@@ -1,3 +1,6 @@
+#include <dt-bindings/zmk/input_transform.h>
+#include <input/processors.dtsi>
+
 / {
     five_col_transform: keymap_transform_1 {
         compatible = "zmk,matrix-transform";
@@ -10,5 +13,27 @@
              RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)         RC(2,6) RC(2,7) RC(4,2) RC(3,3) RC(3,6)
                      RC(5,1) RC(5,3) RC(5,4) RC(5,5)         RC(5,6) RC(5,7) RC(5,2) RC(5,0)
         >;
+    };
+};
+
+&pro_micro_i2c {
+    status = "okay";
+    glidepoint: glidepoint@0 {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        dr-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH)>;
+
+        sensitivity = "4x";
+        sleep;
+        no-taps;
+    };
+};
+
+/ {
+    glidepoint_listener {
+        compatible = "zmk,input-listener";
+        device = <&glidepoint>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT)>;
     };
 };
