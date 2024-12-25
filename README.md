@@ -10,6 +10,11 @@ My personal ZMK configuration.
 </details>
 
 * <details>
+  <summary> Charybdis Nano </summary>
+  <img src="./assets/charybdis.svg" alt="Charybdis Keymap">
+</details>
+
+* <details>
   <summary> Acorn </summary>
   <img src="./assets/acorn.svg" alt="Acorn Keymap">
 </details>

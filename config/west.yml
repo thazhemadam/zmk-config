@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/sadekbaroudi
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: xudongzheng
+      url-base: https://github.com/xudongzheng
     - name: urob
       url-base: https://github.com/urob
     - name: bullwinkle3000
@@ -16,10 +18,17 @@ manifest:
       url-base: https://github.com/keeb-it
     - name: kumamuk
       url-base: https://github.com/kumamuk-git
+
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: taz
+      revision: xudongzheng/split-serial-pr
+
+      # remote: taz
+      # revision: xudongzheng/split-serial-pr # necessary for charybdis nano
+
+      # remote: zmkfirmware
+      # revision: main
       # revision: feat/pointers-move-scroll-ptp  # necessary for peacock trackpad
       import: app/west.yml
     - name: zmk-helpers
@@ -52,6 +61,9 @@ manifest:
       revision: main
       import: config/deps.yml
     - name: zmk-config-roBa
+      remote: taz
+      revision: main
+    - name: zmk-bastardkb-module
       remote: taz
       revision: main
     - name: zmk-pmw3610-driver

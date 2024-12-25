@@ -1,0 +1,43 @@
+#include "zmk-helpers/key-labels/36.h"
+#include "charybdis.dtsi"
+
+/*
+ * Copyright (c) 2024 burkfers
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    chosen {
+        zmk,physical-layout = &charybdis_3x5_layout;
+    };
+
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+     &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+     &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI
+// ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+     &kp Z         &kp X         &kp C         &kp V         &kp B             &kp N         &kp M         &kp COMMA     &kp DOT       &kp SLASH
+// ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
+                                 &bootloader   &kp BACKSPACE &kp RET           &kp SPACE     &bootloader
+//                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────╯
+            >;
+        };
+    };
+};
+
+// #define X_LH_N 1
+// #define X_LH_0 SYSCAPE
+
+// #include "base.keymap"
+
+// ZMK_APPLY_MATRIX_TRANSFORM(charybdis_3x5_transform)
