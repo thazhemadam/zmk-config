@@ -3,6 +3,7 @@
         compatible = "zmk,physical-layout";
         display-name = "3x5 Layout";
         transform = <&charybdis_3x5_transform>;
+        kscan = <&kscan0>;
     };
 
     charybdis_3x5_transform: keymap_transform_1 {
