@@ -1444,11 +1444,11 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(218, 154) rotate(15.0)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-7"/>
+<use href="#mdi:brightness-4" xlink:href="#mdi:brightness-4" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-4"/>
 </g>
 <g transform="translate(267, 187) rotate(15.0)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:brightness-4" xlink:href="#mdi:brightness-4" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-4"/>
+<use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:brightness-7"/>
 </g>
 <g transform="translate(319, 210) rotate(15.0)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
