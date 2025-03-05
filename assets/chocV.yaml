@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: chocV}
 layers:
   base:
   - Q

@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: fingerpunch/vulpes_majora/v1}
+layout: {zmk_keyboard: vulpes_majora_v1}
 layers:
   base:
   - A

@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ffkb_v2, layout_name: five_col_transform}
 layers:
   base:
   - Q

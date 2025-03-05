@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: acorn, layout_name: five_col_transform}
+layout: {zmk_keyboard: dilemma}
 layers:
   base:
   - Q
