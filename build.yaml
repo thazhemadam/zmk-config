@@ -7,6 +7,9 @@
 #
 ---
 include:
+- board: dilemma_left
+- board: dilemma_right
+
 - board: seeeduino_xiao_ble
   shield: totem-7racker_left
 - board: seeeduino_xiao_ble

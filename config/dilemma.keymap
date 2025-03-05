@@ -1,0 +1,9 @@
+#include "zmk-helpers/key-labels/36.h"
+
+#define X_LH_N 1
+#define X_LH_0 SYSCAPE
+
+#define X_RH_N 1
+#define X_RH_0 DELMOUSE
+
+#include "base.keymap"

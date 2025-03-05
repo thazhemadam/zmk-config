@@ -14,10 +14,14 @@ manifest:
       url-base: https://github.com/bullwinkle3000
     - name: numToStr
       url-base: https://github.com/keeb-it
+    - name: paulshir
+      url-base: https://github.com/paulshir
+
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: paulshir
+      revision: pr2766+pio-led # necessary for dilemma (wired split + RGB)
+      # remote: petejohanson
       # revision: feat/pointers-move-scroll-ptp  # necessary for peacock trackpad
       import: app/west.yml
     - name: zmk-helpers
@@ -42,6 +46,9 @@ manifest:
     - name: zmk-keyboard-chocV
       remote: taz
       revision: main
+    - name: zmk-bastardkb-dilemma
+      remote: taz
+      revision: main
     - name: zmk-keyboards
       remote: numToStr
       revision: main
@@ -58,7 +65,7 @@ manifest:
     - name: chiptuner-zmk-module
       remote: petejohanson
       revision: main
-    # - name: maxtouch-zephyr-module
+    # - name: maxtouch-zephyr-module # necessary for peacock trackpad
     #   remote: petejohanson
     #   revision: main
     #   import: config/west.yml
