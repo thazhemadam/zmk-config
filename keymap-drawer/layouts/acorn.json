@@ -1,7 +1,7 @@
 {
   "url": "https://github.com/keeb-it/acorn",
   "layouts": {
-    "foostan_corne_5col_layout": {
+    "five_col_transform": {
       "layout": [
         { "x": 0, "y": 0.375 },
         { "x": 1, "y": 0.125 },

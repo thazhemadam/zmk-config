@@ -1,7 +1,7 @@
 {
   "url": "https://fingerpunch.xyz/product/faux-fox-keyboard/",
   "layouts": {
-    "LAYOUT_ffkb": {
+    "five_col_transform": {
       "layout": [
         { "x": 1.629, "y":  0.362, "r":  15, "rx":  2.129, "ry": 0.862 },
         { "x": 2.766, "y":      0, "r":  15, "rx":  3.266, "ry":   0.5 },
